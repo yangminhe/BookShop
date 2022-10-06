@@ -13,7 +13,8 @@
                           auto-complete="off"
                           placeholder="请输入用户名"
                 />
-            pel-input type="password"
+    
+                <el-input pel-input type="password"
                           v-model="user.password"
                           auto-complete="off"
                           placeholder="请输入密码"
@@ -116,6 +117,14 @@
 </script>
 
 <style scoped>
+
+    .el-form-item{
+        margin-bottom: 0px;
+    }
+    .el-input{
+        margin-bottom: 20px;
+    }
+
     .page {
         -webkit-border-radius: 5px;
         border-radius: 5px;

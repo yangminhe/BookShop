@@ -17,9 +17,6 @@
                            @click="handleSkip"
                            v-else>登录/注册</el-button>
                 <el-button type="text">个人中心</el-button>
-                <el-button type="text">企业采购</el-button>
-                <el-button type="text">客户服务</el-button>
-                <el-button type="text">App下载</el-button>
             </div>
         </el-col>
         </div>

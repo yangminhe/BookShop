@@ -24,11 +24,14 @@
                         <i class="el-icon-user"/>
                         <span slot="title">用户管理</span>
                     </el-menu-item>
+                    <el-menu-item index=" ">
+                        <i class="el-icon-star-off"/>
+                        <span slot="title">评价管理</span>
+                    </el-menu-item>
                 </el-menu>
             </el-aside>
             <el-container>
                 <el-header style="text-align: right">
-                    <el-link href="https://github.com/lincanqiang/bookshop" type="primary" icon="el-icon-help" style="margin: 20px">Github</el-link>
                     <span>管理员</span>
                     <el-dropdown>
                         <i class="el-icon-setting"/>

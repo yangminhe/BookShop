@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div>
-            <el-carousel height="600px"
+        <div >
+            <el-carousel height="400px"
                         indicator-position="outside">
              <el-carousel-item v-for="item in pics" :key="item.url">
                     <img :src="item.url"/>
